@@ -18,7 +18,7 @@
 | 国内纯算法、无开发、无答辩 | 石化行业算子赛道（¥50.8 万 / 12-8）、天池复杂表格识别（¥2 万 / 12-31） |
 | 完全零代码 | 支付宝许愿池金点子奖（5×¥2000 / 12-6） |
 | 长期稳定任务 | Numerai（股市预测，NMR 代币，每周提交） |
-| 极低开发量新增项 | FINCHAL 四资产仓位预测（4×$500）、OSC 超导预测（$3,000） |
+| 极低开发量新增项 | OSC 超导预测（$3,000，CPU 秒级）；Underwater Vessel Noise 写作奖（2×$1,000，不看榜单名次） |
 
 ---
 
@@ -269,11 +269,14 @@
 | 71 | AgentRisk · SemEval 2027 Task 10 | Codabench/ACL | 智能体风险分类 | $1,500 Oumi credits | 评测 2027-01-10~31 | 未公布 | CodaBench 预测文件 | 否（榜单奖） | 低中 | [ACL 公告](https://www.aclweb.org/portal/node/14653) |
 | 72 | FOR-wood / SingleTree Challenge | Codabench | 林业遥感 | 前5队论文共同作者 | 2026-12-31 | 未公布 | CSV 预测 | 否 | 中 | [Codabench](https://www.codabench.org/competitions/18295/) |
 
+> ⚠️ **FINCHAL 资格修正（61–64）**：赛季自 2026-08-24 起，要求至少 **70% 时间有有效仓位**；今天（11-22）加入无法满足资格，已从当前可冲奖清单剔除，仅保留记录。
+
 ### 9.3 边界项，未纳入主清单
 
 - **ICASSP 2027 Audio Editing Challenge**：奖金 $7,000、排行榜定奖，但前三名被邀请提交 2 页论文并在 Grand Challenge session 展示；若把“获奖后展示”也视为演示，则排除。
 - **IEEE CIS Domain-Specific QA Challenge**：奖金 $20,000，但注册已于 2026-11-15 关闭，当前不可新报名。
 - **MVA2027 SMOTP4SB**：获奖论文需在 workshop 口头报告，按硬约束排除。
+- **FINCHAL 四资产仓位预测**：赛季已过大半，要求 70% 时间有有效仓位，今天新加入拿不到奖。
 
 ---
 
