@@ -161,9 +161,76 @@
 
 ---
 
+## 八、官方地址与逐项方向 / 门槛索引
+
+> 链接核对于 **2026-11-22**。优先贴赛事官方页；无法定位到单场页面时，贴平台官方入口并注明需站内搜索。已截止赛事保留入口用于复盘与下一届追踪。报名前务必以页面最新规则、资格和截止日期为准。
+
+| # | 赛事 | 官方地址 | 详细方向 | 门槛 / 适合人群 | 开发量 |
+|---|---|---|---|---|---|
+| 1 | Smart Buildings 控制优化 | [Kaggle 官方页](https://www.kaggle.com/competitions/neurips-2026-smart-buildings) | 训练可泛化到未见建筑的 HVAC 控制：跨建筑迁移、时序预测、控制优化、强化学习 | Notebook 提交，CPU/GPU 时长约≤9小时，通常禁外网；主榜8名+论文奖14名；适合有 RL/控制背景并能写技术报告的人 | 中 |
+| 2 | Soccer Feature Design Hackathon | [Kaggle 官方页](https://www.kaggle.com/competitions/soccer-feature-design-hackathon) | 把两家数据商的足球逐事件数据转成新的球员/球队表现特征，考察特征工程与可解释性 | 社区 Hackathon，约25队，通常需 Notebook + Write-up；适合喜欢体育数据与特征工程的人 | 中低 |
+| 3 | ROGII Wellbore Curves Recognition | [Kaggle 官方页](https://www.kaggle.com/competitions/rogii-2-wellbore-curve-tracing) | 从扫描测井图中追踪地质曲线，本质是图像分割、曲线提取与矢量后处理 | 需 CV/图像处理基础，关注曲线连续性；约67队，竞争较小 | 中 |
+| 4 | SiClink Mouse Visual Reconstruction BCI | [Kaggle 官方页](https://www.kaggle.com/competitions/siclink-mouse-visual-reconstruction-bci-challenge) | 从小鼠视觉皮层脉冲活动重建其看到的汉字图像，神经解码 + 图像重建 | 需信号处理/BCI 基础；约27队，冷门但技术门槛高 | 高 |
+| 5 | Memecoins: Pump or Dump | [Kaggle 官方页](https://www.kaggle.com/competitions/memecoins-pump-or-dump) | 用 Solana/pump.fun 链上数据预测新币暴涨/暴跌，二分类 + 时间序列泛化 | 评分针对尚未发生的未来日期，需防时间泄漏；周期约9天，适合快速试错 | 中低 |
+| 6 | Aura: Calibration-Free EMG Challenge | [Kaggle 官方页](https://www.kaggle.com/competitions/vr-calibration-free-emg-challenge-pieeg) | 为 PiEEG Aura 设备做免校准肌电算法，跨用户、跨电极位置保持鲁棒 | 需 EMG 信号处理与域泛化基础；奖金小、周期短 | 中 |
+| 7 | Predicting Soil Grain Size from Images | [Kaggle 官方页](https://www.kaggle.com/competitions/soil-grain-size-from-photos) | 从土壤表面照片预测累计粒径分布，图像回归 | 基础 CNN/迁移学习可起步；奖金小、队伍多，适合练手 | 低 |
+| 8 | Enveda CASMI 2026 Molecule ID | [Kaggle 官方页](https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra) | 从质谱数据预测小分子 2D 结构，化学信息学 + 谱图解析 | Code Competition，通常禁外网；需化学/质谱背景，约5700队 | 高 |
+| 9 | Name That LLM | [Kaggle 官方页](https://www.kaggle.com/competitions/name-that-llm) | 根据文本判断由哪个大模型生成，文本风格指纹与分类 | 约6600队，竞争激烈；文本嵌入 + 分类器即可起步但要冲榜难 | 中 |
+| 10 | Google Quantum AI 量子线路编译 | [Kaggle 官方页](https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation) | 优化量子线路编译资源，组合优化与搜索 | 奖金高但队伍多；需量子计算基础 | 高 |
+| 11 | Santa 2026 - The Elf Calculator | [Kaggle 官方页](https://www.kaggle.com/competitions/santa-2026) | 用少量初始值编写算术程序，以最少步骤生成大目标数 | 程序合成、启发式搜索、组合优化；约2个月 | 中 |
+| 12 | Squares in Squares | [Kaggle 官方页](https://www.kaggle.com/competitions/squares-in-squares) | 求 N 个单位正方形的最小外包正方形布局，计算几何 + 优化 | 周期约8个月，适合长期迭代 | 中 |
+| 13 | Playground S6E11 信用卡欺诈 | [Kaggle 官方页](https://www.kaggle.com/competitions/playground-series-s6e11) | 表格二分类：欺诈交易识别 | 仅 Swag，无现金；周期短、门槛低 | 低 |
+| 14 | Where the Wild Features Are | [DrivenData 列表页](https://www.drivendata.org/competitions/) / [K12 平台入口](https://platform.k12-ai-infrastructure.org/competitions/4/literacy-speech-modeling/) | 从儿童读写筛查音频预测年末阅读分数，并发现正确性分数之外的语音特征 | 音频特征 + 回归；报名入口可能在 K12 平台，需二次核实 | 中 |
+| 15 | GEMS 地热断层识别 | [DrivenData 官方页](https://www.drivendata.org/competitions/306/competition-doe-gems/) | 从地质/地球物理数据识别隐藏断层，服务地热与关键矿产勘探 | $300k 但约1周截止；规则显示可能限美国居民/实体，需核实；允许外部数据但须共享 | 高 |
+| 16 | Fongbe Tonal ASR Challenge | [Zindi 官方页](https://zindi.africa/competitions/frugal-tonal-asr-challenge-for-fongbe) | 贝宁 Fongbe 声调语言低资源 ASR，输出原始概率供主办方自定阈值 | 仅开源工具；每日10次、总计300次提交；前10需代码复现 | 中高 |
+| 17 | HOTOSM African Highway Segmentation | [Zindi 官方页](https://zindi.africa/competitions/hotosm-african-highway-segmentation) | 从高分辨率卫星/航拍图提取道路中心线，输出 WKT MULTILINESTRING | Buffered Centreline F1 50% + APLS 30% + TOPO F1 20%；U-Net 可起步 | 中高 |
+| 18 | Dis-Chem Product Data Enrichment | [Zindi 官方页](https://zindi.africa/competitions/dischem-product-data-entichment-challenge) | 从多源信息补全、校验、标准化商品目录字段，强调事实依据 | LLM judge 评分；禁止幻觉；需按 Guardrails 输出，注意推理成本限制 | 中 |
+| 19 | TelcoRetrieve Challenge | [Zindi 官方页](https://zindi.africa/competitions/telcoretrieve-challenge-unlocking-telco-knowledge) | 电信知识检索问答，按准确率 + token 效率评分 | 仅开源工具；队伍≤3；两阶段放题，前10需代码复现 | 中高 |
+| 20 | AI Agents for RAN Challenge | [Zindi 官方页](https://zindi.africa/competitions/ai-agents-for-ran-challenge) | 面向通信接入网的 Agent 任务，可能涉及诊断、工具调用与自动决策 | 尚未启动；规则/交付物待公布，先注册占位 | 高 |
+| 21 | Green Rising Methane Innovation | [Zindi 官方页](https://zindi.world/competitions/green-rising-methane-innovation-challenge/data) | 预测全球59个监测站未来5天的每日甲烷浓度 | 评分针对尚未发生的真实测量；有资料显示启动延期至12月11日，以官方页为准 | 中 |
+| 22 | AMD Global Physical AI Safety | [Zindi 官方页](https://zindi.africa/competitions/amd-global-physical-ai-safety-challenge) | 预测机器人继续/减速/停止下未来1/2/3秒的安全风险，共9个概率列 | 前40队进第二阶段；需 AMD 开发者计划与 ROCm 认证才有拿奖资格，代码/权重需复现 | 高 |
+| 23 | Climate Risk and Health Prediction | [Zindi 官方页](https://zindi.africa/competitions/climate-risk-health-prediction-cmu-hackathon) | 判定死亡记录是否属于气候敏感类别，输出二分类与概率 | F1 60% + ROC-AUC 40%；禁止自行调阈值，用0.5默认阈值；无现金 | 低 |
+| 24 | Numerai Tournament | [Numerai 官方页](https://numer.ai/tournament) | 用混淆后的股市数据提交预测，按 CORR/MMC 等指标评分 | 不质押可免费练级；质押 NMR 有收益也有扣减风险 | 中 |
+| 25 | Topcoder Marathon Matches | [Topcoder 竞赛页](https://www.topcoder.com/opportunities/competitions) | 长周期算法优化/ML 挑战，排行榜制 | 每题规则、奖金、资格不同 | 视题而定 |
+| 26 | MultiDems 公民意见摘要 | [Shared Task 主页](https://sites.google.com/view/multidems/shared-task) | 为公民咨询数据生成有来源依据的摘要，保留共识、分歧、少数意见与投票支持度 | 需填表注册；Codabench 约12月开放；无现金，可投稿 workshop | 中 |
+| 27 | FlagOS Track1 SGLang 算子优化 | [Kaggle 官方页](https://www.kaggle.com/competitions/flag-os-open-computing-global-challenge-track-1) | 多芯片环境优化 SGLang 框架算子，降低关键算子耗时 | 需 Triton/CUDA 类内核能力；仅约3队，冷门高门槛 | 高 |
+| 28 | FlagOS Track2 MiniCPM5 推理优化 | [Kaggle 官方页](https://www.kaggle.com/competitions/flag-os-open-computing-global-challenge-track-2) | MiniCPM5-2B 推理吞吐优化，解码、并行与系统级调优 | 需模型推理与系统优化经验；仅约3队 | 高 |
+| 29 | FlagOS Season 2 开放计算 | [Kaggle 官方页](https://www.kaggle.com/competitions/flag-os-open-computing-global-challenge-season-2) | 多赛季开放计算挑战，算子/推理/系统性能优化 | 占坑制 + 分档奖金；约9队；需持续提交达标 | 高 |
+| 30 | SHEIN AI 创新挑战赛 | [SHEIN 官方页](https://careers.shein.cn/AI-Challenge) | 8题覆盖新品动销预测、审核 Agent、智能定价、玩法配置、波次/库位、转运、配载、时效承诺 | 限在校生，1–4人；初交报告 + 可验证成果 + AI协作记录，不需部署；O4 必交演示视频 | 中 |
+| 31 | 石化行业 AI 创新大赛·算子赛道 | [赛事官网](https://workshop-ui-platform-outside.eop.hollicube.com/competition/)<br>[CANNJudge 题目与提交](https://cannjudge.cn/public/mat-chem-sim-pred) | 14道算子题：科学计算、时序基础、工业数据、精度与量化，做昇腾 CANN 算子性能优化 | 面向全社会免费，1–3人；Atlas A2 + CANN 9.0.0；每日≤50次提交；获奖须开源到 MCE SIG | 高 |
+| 32 | 大模型复杂表格识别与内容理解 | [天池官方页](https://tianchi.aliyun.com/competition/entrance/532510/introduction) | 从图片/PDF 识别复杂表格结构与内容，做恢复、抽取与简单推理，交 Excel | 强制只用通义千问 + 阿里云云端资源；禁止人工逐题填答案；需实名认证、不可组队 | 中 |
+| 33 | CCL2026-Eval 系列14任务 | [天池 CCL 专题页](https://tianchi.aliyun.com/competition/introduction.htm?spm=0.0.0.0.cenj3i&raceid=1) | 14个中文 NLP 评测：语义、篇章、低资源、知识图谱、医疗/教育/司法与大模型能力 | 各子任务规则不同，多为1–5人；多数需技术报告，部分已结束 | 中高 |
+| 34 | CCF 算法能力大赛·创业赛道 | [CACC 官网](https://cacc.ccf.org.cn/#/home) | 以算法为核心、面向真实痛点的创业项目申报 | 需 CACC 成绩/赛点推荐/训练营资格；要交 PPT、创业计划书、技术报告、视频，获奖后需落地注册公司 | 高 |
+| 35 | 千言数据集系列 | [AI Studio 竞赛页](https://aistudio.baidu.com/aistudio/competition) | 翻译、文本相似度、事实一致性生成、阅读理解、共指消解等中文 NLP 任务 | 多为长期开放/练习赛，奖励多为礼包积分；免费 GPU 算力 | 低 |
+| 36 | 余震预测技术国际大赛 | [天池官方页](https://tianchi.aliyun.com/competition/entrance/532460) | 对 Mw≥6.0 强震序列预测最大余震的发生时间与震级 | 报名已截止，仅剩排名阶段；团队≤5人 | 中 |
+| 37 | ECV2026 极智智能体开发者大赛 | [极市报名页](https://cvmart.net/cv_landing/list/ECV2026) | 产业应用与岗位应用两方向，创意说明书 → 平台开发 → 线上答辩 | 11月25日报名截止；奖金在复赛/决赛；需用极智平台能力 | 中高 |
+| 38 | 支付宝「智能体涌现奖」首轮 | [活动官网](https://abao.alipay.com/emerge) | 生活好帮手 / 消费新体验两赛道，提交可用智能体；也可投递许愿池需求 | 无需代码可用 VibeCoding；作品通常需可公开访问 URL；许愿池金点子奖 ¥2000×5 | 中 |
+| 39 | 贵安新区智能体应用大赛 | [报名平台](https://www.knowboundless.com/contest/#materials) | 创业/创新双赛道，行业赋能、公共数据、智能体安全、自由探索四方向 | 牵头单位须贵州企业/院校；每队≤5人；需方案与3–8分钟演示视频；全程免费 | 高 |
+| 40 | Qoder 高校创造力大赛 | [天池官方页](https://tianchi.aliyun.com/competition/entrance/532536/introduction) | 用 Qoder 做完整项目并部署到 Qoder Sites，参加 StudyHack / LifeHack / Hack4Good | 限高校生含港澳台；1–3人；需公开访问链接 + 作品介绍帖 | 高 |
+| 41 | 2026 腾讯广告算法大赛 | [官网](https://algo.qq.com/) | pCVR 预测与广告推荐算法挑战 | 当前阶段已过，历史参考 | 高 |
+| 42 | ARC Prize 2026 AGI-2 | [Kaggle 官方页](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-2) | ARC-AGI-2 抽象推理，测试通用推理能力 | 已结束；获奖方案需开源 | 高 |
+| 43 | ARC Prize 2026 AGI-3 | [Kaggle 官方页](https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3) | ARC-AGI-3 交互式推理与探索学习 | 已结束；需开源 | 高 |
+| 44 | RSNA Knee Abnormality Detection | [Kaggle 官方页](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection) | 膝关节 MRI 异常检测与分类 | 已结束；需医学影像 CV 背景 | 高 |
+| 45 | Kaggriculture | [Kaggle 官方页](https://www.kaggle.com/competitions/kaggriculture) | 农业场景智能体/AI 应用挑战 | 已结束 | 高 |
+| 46 | Biohub Cell Tracking | [Kaggle 官方页](https://www.kaggle.com/competitions/biohub-cell-tracking-during-development) | 发育过程细胞追踪与分割 | 已结束；需生物影像背景 | 高 |
+| 47 | LG CNS Optimization Grand Challenge 2026 | [OGC 官网](https://www.optichallenge.com/) | 船厂物流块体装箱与调度，组合优化 / 运筹学 | 已结束；决赛需技术报告与答辩，代码开源 | 高 |
+| 48 | IEEE Big Data Cup 系列 | [IEEE 官方页](https://bigdataieee.org/BigData2026/cup) | OpenCity、TrafficFlowBench、CarbonGlobe、χ-Bench 等多赛道 | 已截止；各赛道平台与复现要求不同 | 中高 |
+| 49 | AIMO Interpretability Challenge | [项目官网](https://aimo-interp.github.io/) | 判断数学模型答案是稳健推理还是伪相关，可解释性二分类 | 已截止；Codabench 提交 + 技术报告；另有 Writeup 奖 | 高 |
+| 50 | Fusion Equilibrium Challenge | [项目官网](https://fusion-equilibrium-challenge.sophelio.io/) | 用线圈电流与激光诊断重建托卡马克磁平衡，机内 + 跨机泛化 | 已结束；数据开源、CPU 可跑；需复现包 | 高 |
+| 51 | 华为开发者大赛·智能体创新赛 | [华为云竞赛页](https://developer.huaweicloud.com/competition/list) | 开放命题智能体应用，覆盖企业、OPC、高校场景 | 报名已截止；必须用华为云码道并保留开发痕迹 | 高 |
+| 52 | 传智杯 AI 大模型创新应用挑战赛 | [赛氪官方页](https://new.saikr.com/vse/2026AIDMX) | 全流程科研助手 Agent：文献解析、抗幻觉问答、翻译、检索、引用图谱、写作辅助 | 已截止；限在校生、需缴费、需 Git 演进记录 | 高 |
+| 53 | 数维杯数学建模秋季赛 | [数维杯官网](https://www.nmmcm.org.cn/) | MCM/ICM 四题，覆盖制造、交通、医药、低碳、AI 与社会治理 | 已截止；需报名费、英文论文、AIGC 使用声明 | 中 |
+| 54 | 全国高校计算机能力挑战赛·大数据赛 | [NCCCU 官网](https://www.ncccu.org.cn/) | 高校大数据/人工智能挑战赛，含数据处理与分类类任务 | 已截止；收费型高校赛，按赛区/组别报名 | 中 |
+| 55 | DataFountain 红外智感分割 | [DataFountain 官方页](https://www.datafountain.cn/competitions/1164) | 红外开放世界全模态分割，处理开放类别与多模态场景 | 页面显示可报名但日期已过，需二次核实 | 中 |
+| 56 | DataFountain 多模态客服智能体 | [DataFountain 官方页](https://www.datafountain.cn/competitions/1165) | 多模态客服智能体，图文理解、对话与业务流程 | 页面显示可报名但日期已过，需二次核实 | 高 |
+| 57 | DataFountain 雷达多目标探测 | [DataFountain 官方页](https://www.datafountain.cn/competitions/1166) | 雷达多目标智能探测与识别，信号/图像目标检测分类 | 页面显示可报名但日期已过，需二次核实 | 中 |
+| 58 | DataFountain 具身自主抓取 | [DataFountain 官方页](https://www.datafountain.cn/competitions/1163) | 多模态感知融合增强的具身自主抓取，视觉/力觉/状态融合与策略学习 | 已结束；页面状态不可信，以历史参考为主 | 高 |
+
+---
+
 ## 数据文件
 
-- `competitions.csv`：全部赛事的结构化数据（平台、方向、奖金、队伍、时间、状态、是否开发类），可用 Excel 筛选排序。
+- `competitions.csv`：全部赛事的结构化数据，新增 **官方地址、详细方向、门槛说明、适合人群、开发量** 五个字段，可用 Excel 筛选排序。
 
 ---
 
