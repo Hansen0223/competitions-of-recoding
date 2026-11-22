@@ -1,0 +1,59 @@
+﻿编号,赛事名称,平台,国家地区,方向,奖金,参赛规模,截止时间,状态,是否开发类,门槛备注
+1,Smart Buildings 控制优化,Kaggle,国际,强化学习/回归/优化,$40000,208队,2027-01-15,可报名,否,Notebook提交;主榜前8+论文奖14名
+2,Soccer Feature Design Hackathon,Kaggle社区,国际,特征工程/建模,$10000,25队,约3个月,可报名,否,竞争最小
+3,ROGII Wellbore Curves Recognition,Kaggle社区,国际,图像分割,$10001,67队,约1个月,可报名,否,曲线描绘
+4,SiClink Mouse Visual Reconstruction BCI,Kaggle社区,国际,神经信号重建,$10000,27队,约2个月,可报名,否,视觉重建
+5,Memecoins Pump or Dump,Kaggle,国际,链上数据二分类,$5000,477队,约9天,可报名,否,快进快出
+6,Aura Calibration-Free EMG Challenge,Kaggle,国际,信号分类,$1000,314队,约9天,可报名,否,肌电分类
+7,Predicting Soil Grain Size from Images,Kaggle,国际,图像回归,$500,911队,约8天,可报名,否,奖金小门槛低
+8,Enveda CASMI 2026 Molecule ID,Kaggle Featured,国际,分子结构预测,$50000,5725队,2026-12-14,可报名,否,禁外网Notebook
+9,Name That LLM,Kaggle Featured,国际,文本分类,$50000,6671队,约2个月,可报名,否,竞争激烈
+10,Google Quantum AI Quantum Circuit Compilation,Kaggle Featured,国际,组合优化,$150000,3538队,约2个月,可报名,否,量子计算背景
+11,Santa 2026 The Elf Calculator,Kaggle Featured,国际,组合优化,$50000,2254队,约2个月,可报名,否,程序生成
+12,Squares in Squares,Kaggle Featured,国际,几何优化,$50000,2353队,约8个月,可报名,否,周期长
+13,Playground S6E11 信用卡欺诈,Kaggle,国际,分类,Swag无现金,2613队,约9天,可报名,否,仅纪念品
+14,Where the Wild Features Are,DrivenData,国际,音频回归,$50000,未公布,2027-02-08,可报名,否,备赛期最长
+15,GEMS 地热断层识别,DrivenData,国际,分类识别,$300000,1104人,约1周,可报名,否,时间紧
+16,Fongbe Tonal ASR Challenge,Zindi,国际,语音识别,$5000,240人,约22天,可报名,否,部分有资格限制
+17,HOTOSM African Highway Segmentation,Zindi,国际,图像分割,$2500,287人,约22天,可报名,否,U-Net可起步
+18,Dis-Chem Product Data Enrichment,Zindi,国际,属性抽取分类,$5000,373人,约22天,可报名,否,表格建模
+19,TelcoRetrieve Challenge,Zindi,国际,检索抽取,€25000,462人,约2个月,可报名,否,ITU主办
+20,AI Agents for RAN Challenge,Zindi,国际,通信智能体,€30000,238人,6天后启动,即将开放,是,Agent方向
+21,Green Rising Methane Innovation,Zindi,国际,预测,$10000,331人,20天后启动,即将开放,否,可先占位
+22,AMD Global Physical AI Safety,Zindi,国际,安全分类,$10000,483人,约3个月,可报名,否,物理AI
+23,Climate Risk and Health Prediction,Zindi,国际,预测,3000积分,74人,约6天,可报名,否,无现金新手向
+24,Numerai Tournament,Numerai,国际,股市预测,NMR代币,全球,每周一轮,可报名,否,质押有风险;不质押免费
+25,Topcoder Marathon Matches,Topcoder,国际,优化/ML,$100-$100000+,不限,常驻,可报名,视题而定,排行榜制
+26,MultiDems 公民意见摘要,Codabench,国际,文本摘要抽取,无现金,未知,2026-12开赛,即将开放,否,现在可注册占位
+27,FlagOS Track1 SGLang算子优化,Kaggle社区,国际,算子性能优化,$5925,3队,约1个月,可报名,是,Triton多芯片门槛高
+28,FlagOS Track2 MiniCPM5推理优化,Kaggle社区,国际,推理吞吐优化,$9000,3队,约1个月,可报名,是,模型优化门槛高
+29,FlagOS Season 2 开放计算,Kaggle社区,国际,高性能计算,$14925,9队,约1个月,可报名,是,多赛季 series
+30,SHEIN AI创新挑战赛,SHEIN官网,中国,预测/定价/运筹优化,¥100000,不限,2026-12-09,可报名,部分,限在校大学生;8题中5题纯算法
+31,石化行业AI创新大赛算子赛道,CANNJudge,中国,算子开发/性能优化,¥508000,不限,2026-12-08,可报名,是代码非应用,面向全社会免费;需昇腾CANN;22名额
+32,大模型复杂表格识别与内容理解,阿里云天池,中国,抽取/分类,¥20000,2780队,2026-12-31,可报名,否,提交Excel无部署
+33,CCL2026-Eval系列14任务,阿里云天池,中国,NLP评测,¥40000,1938队,2026-12-31,可报名,否,需写技术报告
+34,CCF算法能力大赛创业赛道,CCF,中国,算法项目,孵化投资,不限,2026-12-31,可报名,是,偏创业非纯奖金
+35,千言数据集系列,飞桨AI Studio,中国,翻译/共指/阅读理解,礼包积分,175-4582,长期开放,可报名,否,无现金;免费算力
+36,余震预测技术国际大赛,阿里云天池,中国,时序预测,$30000,898队,2026-12-20,报名已截止,否,仅排名赛阶段
+37,ECV2026极智智能体开发者大赛,极视角,中国,智能体开发,共20名额奖金,不限,2026-11-25,可报名,是,初赛仅交创意说明书;奖金在决赛轮
+38,支付宝智能体涌现奖首轮,支付宝,中国,智能体创作,总池¥1000万;前200名¥5000,不限,2026-12-06,可报名,是,许愿池5个¥2000金点子奖
+39,贵安新区智能体应用大赛,贵安新区,中国,智能体应用,¥116000+89亿Token,不限,2026-11-29,可报名,是,牵头单位须贵州企业院校
+40,Qoder高校创造力大赛,阿里云天池,中国,应用开发,¥88500,14219队,2026-12-15,可报名,是,限高校生;需部署
+41,2026腾讯广告算法大赛,腾讯,中国,pCVR预测,$885000约¥600万,8400人,2026年3月启动,已截止,否,学术赛道冠军30万美元
+42,ARC Prize 2026 AGI-2,Kaggle,国际,AGI推理,$700000,3543队,2026-11初,已结束,否,需开源
+43,ARC Prize 2026 AGI-3,Kaggle,国际,AGI推理,$850000,4923队,2026-11初,已结束,否,需开源
+44,RSNA Knee Abnormality Detection,Kaggle,国际,影像分类,$77000,6299队,约1月前,已结束,否,研究类
+45,Kaggriculture,Kaggle,国际,智能体,$50000,10148队,约1月前,已结束,是,Featured
+46,Biohub Cell Tracking,Kaggle,国际,细胞追踪,$60000,3947队,约2月前,已结束,否,Research
+47,LG CNS Optimization Grand Challenge 2026,LG CNS,国际,数学优化,$130000,多国,2026-09-04,已结束,否,亚洲唯一数学优化赛
+48,IEEE Big Data Cup系列,Codabench/Kaggle,国际,交通/生态预测,$500-$3000每赛道,不限,2026-11-06,已截止,否,含OpenCity/TrafficFlowBench等
+49,AIMO Interpretability Challenge,OpenReview,国际,可解释性分类,$12500,未知,2026-11-01,已截止,否,含Writeup奖$4000
+50,Fusion Equilibrium Challenge,Codabench,国际,等离子体重建,2×$500,未知,2026-10-28,已结束,否,计算量小
+51,华为开发者大赛智能体创新赛,华为云,中国,智能体开发,金奖¥100000,72队,2026-11-12,已截止,是,需用华为云码道
+52,传智杯AI大模型创新应用挑战赛,赛氪,中国,科研助手Agent,奖金未公布,不限,2026-11-19,已截止,是,限在校生+需缴费
+53,数维杯数学建模秋季赛,模竞网,中国,数学建模,专项¥5000,5000+队,2026-11-20,已截止,否,¥200报名费
+54,全国高校计算机能力挑战赛大数据赛,西华大学,中国,图像分类,前三名¥1000,不限,2026-11-06,已截止,否,¥200/队;限高校
+55,DataFountain 红外智感分割,DataFountain,中国,图像分割,¥145000,269人,2026-07-30,显示可报名但日期已过,否,页面状态不可信
+56,DataFountain 多模态客服智能体,DataFountain,中国,智能体,¥145000,1106人,2026-08-31,显示可报名但日期已过,是,页面状态不可信
+57,DataFountain 雷达多目标探测,DataFountain,中国,目标识别,¥145000,706人,2026-08-31,显示可报名但日期已过,否,页面状态不可信
+58,DataFountain 具身自主抓取,DataFountain,中国,多模态,¥145000,114人,2026-06-20,已结束,是,页面状态不可信
